@@ -21,7 +21,9 @@ function App({ onMount, remotes }: AppProps) {
 
   return (
     <Layout className="layout__container">
-      <Layout.Navbar username="Guest User" title="Shell Application Container" />
+      <Layout.Navbar username="Guest User" title="Business Operations Portal">
+        <div className="rc-layout__navbar__logo" />
+      </Layout.Navbar>
       <Layout.Content>{content}</Layout.Content>
     </Layout>
   );

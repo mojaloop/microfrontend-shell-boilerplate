@@ -8,6 +8,7 @@
   $themed-border-bottom: true,
   $themed-border-left: true,
   $themed-border-right: true,
+  $family: Ubuntu,
 );
 
 * {
@@ -20,7 +21,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-overflow-scrolling: touch;
-  font-family: Fira Sans, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -62,7 +63,7 @@ h5,
 h6 {
   color: #3a3b3c;
   font-style: normal;
-  font-family: Fira Sans, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -102,7 +103,7 @@ p {
   margin: 20px 0;
   font-size: 1.4rem;
   letter-spacing: 0;
-  font-family: Fira Sans, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
